@@ -1,16 +1,70 @@
-# React + Vite
+# 🛍️ Digital Store - E-commerce (Drip Store)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de e-commerce completo desenvolvido com foco em fidelidade visual ao layout do Figma, componentização avançada em React, design responsivo para dispositivos móveis e experiência de usuário fluida.
 
-Currently, two official plugins are available:
+🔗 **Acesse o projeto online:** [https://projetodripstore.vercel.app/](https://projetodripstore.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi construído utilizando tecnologias modernas de mercado:
 
-## Expanding the ESLint configuration
+* **[React 18](https://react.dev/)** - Biblioteca JavaScript para construção de interfaces baseadas em componentes.
+* **[Vite](https://vitejs.dev/)** - Ferramenta de build ultrarrápida para desenvolvimento front-end.
+* **[React Router DOM](https://reactrouter.com/)** - Gerenciamento de rotas e navegação SPA (Single Page Application).
+* **CSS Moderno / Variáveis CSS (Design Tokens)** - Estilização customizada seguindo estritamente o Design System do Figma.
+* **JavaScript (ES6+)** - Lógica de manipulação de estados, listagens dinâmicas e menu lateral mobile (*Drawer*).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 Funcionalidades e Seções
+
+* **Cabeçalho (`Header`)**: Barra de busca interativa, links de navegação com estados ativos, ícones de carrinho e **Menu Hambúrguer Responsivo (Drawer)** para dispositivos móveis.
+* **Página Inicial (`HomePage`)**: 
+  * Carrossel de banners principais.
+  * Ícones circulares de categorias e coleções em destaque (*Camisetas, Calças, Bonés, Headphones, Tênis*).
+  * Vitrine dinâmica de **Produtos em Alta**.
+  * Guia de **Oferta Especial** com layout adaptável.
+* **Listagem e Filtros (`ProductListingPage`)**: Visualização de produtos em grid flexível adaptado para celulares, tablets e desktops.
+* **Detalhes do Produto (`ProductViewPage` / `BuyBox`)**: Galeria interativa, opções de tamanhos/cores e botão de compra.
+* **Rodapé (`Footer`)**: Seções informativas, redes sociais e direitos autorais customizados.
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para clonar e rodar o projeto na sua máquina:
+
+### Pré-requisitos
+Certifique-se de ter o **Node.js** e o **Git** instalados no seu computador.
+
+### 1. Clonar o repositório
+```bash
+git clone [https://github.com/rafaelmagnon/projetodripstore.git](https://github.com/rafaelmagnon/projetodripstore.git)
+
+2. Entrar na pasta do projeto
+
+cd projetodripstore
+
+3. Instalar as dependências
+
+npm install
+
+4. Rodar o servidor de desenvolvimento
+
+npm run dev
+
+📦 Build de Produção
+Para gerar a versão otimizada do projeto para produção:
+
+npm run build
+
+Para pré-visualizar o build localmente:
+
+npm run preview
+
+👨‍💻 Autor
+Desenvolvido por Rafael Magnon.
+
+
